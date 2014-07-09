@@ -1,0 +1,38 @@
+table,th,td
+{
+font-size:11px;
+font-family:"Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+padding:5px;
+text-align: center;
+border:1px solid black;
+border-collapse: collapse;	
+}
+.sortable:hover
+{
+	color:#7cb5ec;
+	cursor: pointer; 
+	cursor: hand;
+}
+.title
+{
+	border-left:none;
+	border-right:none;
+	border-bottom:none;
+	display: block;
+	width: 100px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	
+}
+.title.first
+{
+	border-top:none;
+}
+.title:hover
+{
+	background-color:yellow;
+    width: auto;
+    display:block;
+    position: absolute;
+}
